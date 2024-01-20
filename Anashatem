@@ -1,0 +1,11 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({IntroText = "by X Scrabble",Name = "Tbao Hub | Arsenal", HidePremium = false, SaveConfig = true, ConfigFolder = ""})
+
+Tab = Window:MakeTab({Name = "Main", Icon = "rbxassetid://15862434941",PremiumOnly = false })
+
+Tab:AddButton({
+	Name = " سكربت نجمه ",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
